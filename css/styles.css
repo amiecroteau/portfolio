@@ -9,6 +9,14 @@ html body {
     padding-top: 2em;
 }
 
+
+
+.preview{
+	
+	width: 300px;
+	height: 100px;
+}
+
 @media screen and (max-width: 769px) {
 #logo {
     margin-left: auto;
@@ -49,6 +57,7 @@ html body {
     text-align: center;
 }
 }
+
 @media screen and (max-width: 641px) {
 #logo {
     margin-left: auto;
@@ -89,3 +98,6 @@ html body {
     text-align: center;
 }
 }
+
+
+
