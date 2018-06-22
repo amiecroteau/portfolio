@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+
+html body {
+    background-color: white;
+    padding: auto auto auto;
+}
+#logo {
+    padding-top: 2em;
+}
+
+@media screen and (max-width: 769px) {
+#logo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#name {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}
+#featured {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: inherit;
+}
+#bigs {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 80%;
+}
+#rrl {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 80%;
+}
+#snow {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 80%;
+}
+#description {
+    text-align: center;
+}
+}
+@media screen and (max-width: 641px) {
+#logo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#name {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+}
+#featured {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: inherit;
+}
+#bigs {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+}
+#rrl {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+}
+#snow {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+}
+#description {
+    text-align: center;
+}
+}
