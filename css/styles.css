@@ -1,6 +1,16 @@
 @charset "utf-8";
 /* CSS Document */
 
+.preview{
+
+	border: solid black 15px;
+	width: 600px;
+	height: 300px;
+
+	position: relative;
+	display: inline-flex;
+}
+
 html body {
     background-color: white;
     padding: auto auto auto;
@@ -8,59 +18,74 @@ html body {
 #logo {
     padding-top: 2em;
 }
-
-.preview{
-	
-	width:  400px;
-	height: 200px;
-	
-	padding: auto auto auto;
-	display: inline;
-
-	
-	
-}
-
-
-
-@media screen and (max-width: 769px) {
-#logo {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-#name {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    text-align: center;
-}
-#featured {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    width: inherit;
-}
 #bigs {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    width: 80%;
+	
+ position: relative;
+    display: inline-flex;
+	
+
+	
 }
 #rrl {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    width: 80%;
+	max-width:100%;
+	max-height:100%;
+    position: relative;
+    display: inline-flex;
 }
 #snow {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    width: 80%;
+    position: relative;
+    display: inline-flex;
+}
+#mm {
+    position: relative;
+    display: inline-flex;
+}
+#blog {
+    position: relative;
+    display: inline-flex;
+}
+#social {
+    position: relative;
+    display: inline-flex;
+}
+*/ @media screen and (max-width: 769px) {
+#logo {
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
+}
+#name {
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
+ text-align: center;
+}
+#featured {
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+ width: inherit;
+}
+#bigs {
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+ width: 80%;
+}
+#rrl {
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+ width: 80%;
+}
+#snow {
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+ width: 80%;
 }
 #description {
-    text-align: center;
+ text-align: center;
 }
 }
 
@@ -104,6 +129,3 @@ html body {
     text-align: center;
 }
 }
-
-
-
