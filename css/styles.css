@@ -7,10 +7,20 @@
 	width: 525px;
 	height: 253px;
 
+	margin-left: 30px;
+	margin-top: 20px;
 	
 	display: inline-block;
 }
 
+.preview:nth-child(odd){
+	
+	margin-right:13.5em;
+}
+
+.preview:nth-last-child(1){
+	margin-bottom: 200px;
+}
 html body {
     background-color: white;
     padding: auto auto auto;
