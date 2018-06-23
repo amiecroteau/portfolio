@@ -3,12 +3,12 @@
 
 .preview{
 
-	border: solid black 15px;
-	width: 600px;
-	height: 300px;
+	border: inset #E1E1E1 2px;
+	width: 525px;
+	height: 253px;
 
-	position: relative;
-	display: inline-flex;
+	
+	display: inline-block;
 }
 
 html body {
@@ -18,36 +18,35 @@ html body {
 #logo {
     padding-top: 2em;
 }
-#bigs {
+.preview #bigs {
+	position: relative;
+    display: block;	
+}
+.preview #rrl {
 	
- position: relative;
-    display: inline-flex;
+    position: relative;
+    display: block;
+}
+.preview #snow {
+    position: relative;
+    display: block;
 	
+}
+.preview #mm {
 
-	
-}
-#rrl {
-	max-width:100%;
-	max-height:100%;
     position: relative;
-    display: inline-flex;
+    display: inline-block;
 }
-#snow {
+.preview #blog {
     position: relative;
-    display: inline-flex;
+    display: inline-block;
 }
-#mm {
+.preview #social {
     position: relative;
-    display: inline-flex;
+    display: inline-block;
 }
-#blog {
-    position: relative;
-    display: inline-flex;
-}
-#social {
-    position: relative;
-    display: inline-flex;
-}
+
+
 */ @media screen and (max-width: 769px) {
 #logo {
  margin-left: auto;
